@@ -1,0 +1,60 @@
+Messages:
+  Prefix: '&7[&6BetterRTP&7] '
+  Success:
+    Paid: '&aPrzeteleportowałeś się do ''d do&7 x=%x% y=%y% z=%z% za &c$%price%&7 w &f%próbach%
+      &7attempts!'
+    Bypass: '&aPrzeteleportowałeś się''d do&7 x=%x% y=%y% z=%z% w &f%attempts% &7próbach'
+  Failed:
+    Price: '&cNie możesz się teleportować poprzez brak środków! &7Musisz posiadać przynajmniej
+      $%price% &7aby się teleportować!'
+    NotSafe: '&cNie można było znaleźć bezpiecznego miejsca w %attempts% próbach ! &7Nie zostaniesz
+      teleportowany''d!'
+  Other:
+    Success: '&a%player% został przeteleportowany''d do&7 x=%x% y=%y% z=%z% w &f%attempts% &7próbach!'
+    NotSafe: '&cNie można było znaleźć bezpiecznego miejsca w %attempts% próbach ! &7Nie zostaniesz
+      teleportowany''d!'
+    Biome: '&cBiom jak&7 %biome%&c nie istnieje! &7Spróbuj użyć tab
+      listy!'
+  Reload: '&eKonfiguracja pomyślnie przeładowana!'
+  NoPermission:
+    Basic: '&7Nie masz uprawnień aby użyć tej komendy!'
+    World: '&cNie! &7Nie masz pozwolenia, aby używać RTP w %world% świecie!'
+  DisabledWorld: '&cŚwiat wyłączony %world%! &7Nie ma możliwości rpt!'
+  Cooldown: '&7Nie możesz użyć RTP przez &c%time% &7sekund!'
+  Invalid: '&cNie poprawny argument. Spróbuj ''/%command% help'''
+  NotOnline: '&cGracz &7%player% &cnie jest online!'
+  Delay: '&aTeleportacja za &f%time% &asekund! Nie ruszaj się!'
+  Moved: '&cPoruszyłeś się! &7RTP zostało anulowane!'
+  NotExist: '&cWygląda na to, że świat &7%world% &cnie istnieje!'
+  Already: '&cWhoops! &7Wygląda na to, że właśnie się teleportujesz, trochę cierpliwości!'
+  Sign: '&7Komenda na tabliczce została stworzona! &7Komenda to... ''&f/rtp %command%&7'''
+Titles:
+  Enabled: true
+  Delay:
+    SendChatMessage: true
+    Title: '&6BetterRTP od SRC'
+    Subtitle: '&fTeleportacja za %time% sekund!'
+  Success:
+    SendChatMessage: true
+    Title: '&6BetterRTP od SRC &7(%attempts%)'
+    Subtitle: '&fTeleportacja do x=%x% y=%y% z=%z%'
+Help:
+  List:
+  - '&e&m------&r &6&lBetterRTP &8| &7Pomoc &e&m------'
+  - ' &7- &e/%command% &7- Losowo teleportuje ciebie!'
+  - ' &7- &e/%command% help &7- Pokazuje pomocną listę'
+  Player: ' &7- &e/%command% player <gracz> [świat] [biom1, biom2...] &7- Losowo
+    teleportuje wskazanego gracza'
+  World: ' &7- &e/%command% world <świat> [biom1, biom2...] &7- Losowo teleportuje
+    do wybranego świata'
+  Biome: ' &7- &e/%command% biome <biom1, biom2...> &7- Losowo teleportuje w
+    wybrane biomy'
+  Reload: ' &7- &e/%command% reload &7- Przeładowywuje plugin'
+Usage:
+  Player: '&cUżycie&7: /%command% player <gracz> [świat] [biom1, biom2]'
+  World: '&cUżycie&7: /%command% world <świat> [biom1, biom2...]'
+  Biome: '&cUżycie&7: /%command% biome <biom1, biom2...>'
+Sounds:
+  Enabled: true
+  Delay: entity_tnt_primed
+  Success: entity_generic_explode
